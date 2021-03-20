@@ -1,0 +1,92 @@
+/* Theme */
+#switcher .theme-click {
+	background-color: #FCC402;
+}
+/* Forms */
+textarea:focus, select:focus, textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="email"]:focus, .form-control:focus {
+	-webkit-box-shadow: 0px 0px 0px 1px #FCC402;
+	box-shadow: 0px 0px 0px 1px #FCC402;
+	border-color: #FCC402;
+}
+/* Buttons*/
+.cs-nav-btn {
+	background-color:  #FCC402;
+}
+.btn-primary {
+	background-color: #FCC402;
+}
+.btn-white-primary {
+	color: #FCC402;
+}
+.btn-secondary:hover,.btn-primary:hover,.btn-black:hover,.btn-white-primary:hover,.cs-nav-btn:hover,
+.btn-white-secondary:hover {
+	color: #FCC402;
+	border-color:#FCC402;
+}
+/* nav*/
+.navbar-nav .cs-fa{
+	color: #FCC402;
+}
+.navbar-nav .cs-fa:hover{
+	border-color: #FCC402;	
+}
+
+/* About Icons */
+.cs-icon-text .icon {
+	color: #FCC402;
+}
+.cs-icon-text-link {
+	border-color: #FCC402;
+	color: #FCC402;
+}
+.cs-icon-text-link:hover{
+	color:  #FCC402;
+}
+/* Progress bar */
+.progress-bar {
+	background: #FCC402;
+}
+/* Call to action */
+.call-to-action h4 span {
+	color: #FCC402;
+}
+/* Blog */
+.cs-blog-category {
+	background-color: #FCC402;
+}
+/* Team */
+.cs-team-content p {
+	color: #FCC402;
+}
+.cs-team-content {
+	box-shadow: 0px 2px 0px 0px #FCC402;
+}
+.cs-team-content:after {
+	background-color: #FCC402;
+}
+/*Testimonial*/
+.cs-testimonial-message .fa {
+	background-color: #FCC402;
+}
+.cs-partner-logo:hover {
+	border-color: #FCC402;
+}
+/*footer*/
+.cs-link {
+	color: #FCC402;
+}
+.cs-contact-icontext .cs-icon {
+	color: #FCC402;
+}
+/* Icon color */
+.cs-icontext .cs-icon,.navbar-default.cs-primary-navbar .navbar-nav>li>a:hover,.navbar-default.cs-primary-navbar .navbar-nav>li>a:focus {
+	color: #FCC402;
+}
+
+
+
+
+
+
+
+
