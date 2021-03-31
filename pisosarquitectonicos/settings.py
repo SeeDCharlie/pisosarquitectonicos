@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'pisosarquitectonicos.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'seedch_seedcorp_db',
+        'USER': 'seedch_seedadm',
+        'PASSWORD': '27QFL2iNuv',
+        'HOST': 'seedcharlie.co',
+        'PORT': '3306',
     }
 }
 
