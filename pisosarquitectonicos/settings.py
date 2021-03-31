@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-z)xx9*yr&85d0tlh5wy1$w)hl6yy0=kuz+916%zz3kj_%b_^$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pisoarquitectonico.com']
 
 
 # Application definition
@@ -101,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 #CONFIGURACION EMAIL
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'lavadodetanquessiamcosas@gmail.com'
 EMAIL_HOST_PASSWORD = 'lavadotanques'
@@ -113,9 +115,12 @@ EMAIL_PORT = 587
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+
+LANGUAGE_CODE = 'es-spa'
 
 TIME_ZONE = 'UTC'
+
+TIME_ZONE = 'Etc/GMT-5'
 
 USE_I18N = True
 
@@ -127,4 +132,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 STATIC_URL = '/static/'
+
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),   
+)
