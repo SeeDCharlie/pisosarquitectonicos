@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'pisosarquitectonicos.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'seedch_seedcorp_db',
-        'USER': 'seedch_seedadm',
-        'PASSWORD': '27QFL2iNuv',
-        'HOST': 'seedcharlie.co',
+        'NAME': 'siamco_db',
+        'USER': 'siamco_adm',
+        'PASSWORD': 'f=o*94y=_jT4',
+        'HOST': 'impermeabilizacion.com.co',
         'PORT': '3306',
     }
 }
